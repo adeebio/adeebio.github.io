@@ -14,6 +14,13 @@ a:active {
 	text-decoration: none;
 }
 
+.container{
+	position: absolute;
+	display: block;
+	width: 100%;
+	top: 10%;
+}
+
 .title{
 	font-family: 'Open Sans', sans-serif;
 	font-weight: 600;
@@ -34,14 +41,18 @@ a:active {
 	font-size: 3em;
 	color: #CCC;
 	text-align: center;
-	margin: 0.5em 0em;
-	padding: 0em 0em;
+	margin: 0em 0em;
+	padding: 0.6em 0em;
 	cursor: pointer;
 }
 
 .btn_twitter:hover{
 	color: #4da7de;
 	text-decoration: none;
+}
+
+.btn_instagram:hover{
+	color: #9c7c6e;
 }
 
 .btn_wordpress:hover{
