@@ -51,13 +51,21 @@
         <a href="https://github.com/adeebio" target="_blank">
             <div id="github_col" class="col-md-2 icon socicon-github btn_github"><!-- Q --></div>
         </a>
-        <a href="http://www.contactme.com/5627941c4d70180003007905" target="_blank">
+        <a id="mailto_link" href="#">
             <div id="mail_col" class="col-md-2 icon socicon-mail btn_mail"><!-- @ --></div>
         </a>
     </div>
     <div class="col-md-3"></div>
 
 </div>
+
+<script>
+var mailto_href = "";
+mailto_href += "mai" + "lto:em" + "ail";
+mailto_href += String.fromCharCode(64);
+mailto_href += "ade" + "eb." + "io";
+document.getElementById("mailto_link").setAttribute('href', mailto_href);
+</script>
 
 </body>
 </html>
