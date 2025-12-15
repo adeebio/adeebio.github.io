@@ -3,7 +3,7 @@
 <head>
 <meta charset="UTF-8">
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
-<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
 
 <title>adeeb.io</title>
 
@@ -26,56 +26,46 @@
 <body>
 <div class="container">
 
-<br /><br /><br /><br /><br />
+<br /><br /><br /><br />
 <div class="title">adeeb.io</div>
-<br />
+<br /><br />
 <div class="name">Adeeb Ahmed Hossain</div>
-<br /><br /><br />
+<br /><br />
 
 <div class="row">
-    <!-- <div id="twitter_col" class="col-md-2"></div> -->
+    
     <div class="col-md-3"></div>
     <div class="col-md-6">
-        <div class="col-md-1"></div>
-        <div id="twitter_col" class="col-md-2">
-            <a href="https://twitter.com/adeebio" target="_blank">
-                <div class="icon socicon- btn_twitter">
-                    a
-                </div>
-            </a>
-        </div>
-        <div id="wordpress_col" class="col-md-2">
-            <a href="https://adeebio.wordpress.com/" target="_blank">
-                <div class="icon socicon- btn_wordpress">
-                    y
-                </div>
-            </a>
-        </div>
-        <div id="linkedin_col" class="col-md-2">
-            <a href="https://www.linkedin.com/in/adeebio" target="_blank">
-                <div class="icon socicon- btn_linkedin">
-                    j
-                </div>
-            </a>
-        </div>
-        <div id="github_col" class="col-md-2">
-            <a href="https://github.com/adeebio" target="_blank">
-                <div class="icon socicon- btn_github">
-                    Q
-                </div>
-            </a>
-        </div>
-        <div id="mail_col" class="col-md-2">
-            <a href="http://contactme.com/5627941c4d70180003007905" target="_blank">
-                <div class="icon socicon- btn_mail">
-                    @
-                </div>
-            </a>
-        </div>
-        <div class="col-md-1"></div>
+        <a href="https://twitter.com/adeebio" target="_blank">
+            <div id="twitter_col" class="col-md-2 icon socicon-twitter btn_twitter" ><!-- a --></div>
+        </a>
+        <a href="https://www.instagram.com/adeebio/" target="_blank">
+            <div id="instagram_col" class="col-md-2 icon socicon-instagram btn_instagram"><!-- x --></div>
+        </a>
+        <a href="https://adeebio.wordpress.com/" target="_blank">
+            <div id="wordpress_col" class="col-md-2 icon socicon-wordpress btn_wordpress"><!-- y --></div>
+        </a>
+        <a href="https://www.linkedin.com/in/adeebio" target="_blank">
+            <div id="linkedin_col" class="col-md-2 icon socicon-linkedin btn_linkedin"><!-- j --></div>
+        </a>
+        <a href="https://github.com/adeebio" target="_blank">
+            <div id="github_col" class="col-md-2 icon socicon-github btn_github"><!-- Q --></div>
+        </a>
+        <a id="mailto_link" href="#">
+            <div id="mail_col" class="col-md-2 icon socicon-mail btn_mail"><!-- @ --></div>
+        </a>
     </div>
     <div class="col-md-3"></div>
+
 </div>
+
+<script>
+var mailto_href = "";
+mailto_href += "mai" + "lto:em" + "ail";
+mailto_href += String.fromCharCode(64);
+mailto_href += "ade" + "eb." + "io";
+document.getElementById("mailto_link").setAttribute('href', mailto_href);
+</script>
 
 </body>
 </html>
